@@ -1,5 +1,5 @@
--HOST = "irc.twitch.tv"              # the Twitch IRC server
--PORT = 6667                         # always use port 6667!
+-HOST = "irc.twitch.tv"              # The Twitch IRC server
+-PORT = 6667                         # Always use port 6667!
 -NICK = "twitchplayssketchbot"       # Twitch username
--PASS = "REDACTED"                   # your Twitch OAuth token (Removed for obvious reasons)
--CHAN = "#twitchplayssketchbot"      # the channel you want to join
+-PASS = "REDACTED"                   # Your Twitch OAuth token (Removed for obvious reasons)
+-CHAN = "#twitchplayssketchbot"      # The channel you want to join (For this project, same as Twitch username)
