@@ -1,3 +1,4 @@
+#NOTE: YOU MAY NEED TO INSTALL PYSERIAL. OPEN YOUR CMD AND TYPE "pip install pyserial"
 import socket
 import cfg
 import time
@@ -5,6 +6,7 @@ import re
 import serial
 import math
 
+#Change COM port to wherever your arduino is connected
 ser = serial.Serial('COM10',9600)
 
 def serialwrite(string):
